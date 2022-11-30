@@ -1,0 +1,41 @@
+* {
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+}
+
+.container .nav{
+    background-color: #51D3EB;
+    height: 70px;
+    width: 100%;
+
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+}
+
+.container .nav ul {
+    position: relative;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: row;
+    display: flex;
+    gap: 10px;
+    top: 25px;
+}
+
+.container .header{
+    background-color: #51D3EB;
+    height: 500px;
+}
+
+.container .isi {
+    background-color: #E8FBFF;
+    height: 100vh;
+}
